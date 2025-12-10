@@ -7,8 +7,6 @@ Mis archivos de configuracion para personalizacion de Arch Linux usando el Windo
 
 <img width="1920" height="1080" alt="screenshot" src="https://github.com/user-attachments/assets/bef3ed74-771f-4d74-a67e-ee46cef650ce" />
 
-https://github.com/user-attachments/assets/c16a8271-4050-49a9-ba96-d0c711c7b399
-
 
 https://github.com/user-attachments/assets/26036d9b-f244-4e6f-9210-5ae6e63a47c2
 
