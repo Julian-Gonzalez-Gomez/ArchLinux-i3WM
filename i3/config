@@ -12,14 +12,15 @@
 set $mod Mod4
 
 # Inicia el compositor
-#exec_always picom
+exec_always picom
+exec_always --no-startup-id feh --bg-scale /home/argos/Descargas/argonaut.png
 
 # Inicia el video
-exec mpv --wid=0 /home/argos/Descargas/Wallpaper.mp4 --no-audio --loop --no-border --fullscreen --quiet --vo=x11
+# exec mpv --wid=0 /home/argos/Descargas/Wallpaper.mp4 --no-audio --loop --no-border --fullscreen --quiet --vo=x11
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-#font pango:monospace 8
+#font pango:monospace 8	
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
