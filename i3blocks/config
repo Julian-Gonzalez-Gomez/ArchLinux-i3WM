@@ -6,7 +6,6 @@ interval=once
 separator=false
 min_height=30
 
-
 [HDMI]
 full_text= <span background='#444242' size='x-large'>  HDMI  </span>
 command= wpctl set-default 49
@@ -14,16 +13,21 @@ markup=pango
 interval=once
 min_height=30
 
-
 [date]
 command=echo "<span background='#444242' size='x-large'><b> 🗓️ `date +'%a %m-%d'` </b></span>"
 markup=pango
 interval=86400
 min_height=30
 
-
 [time]
 command=echo "<span background='#444242' size='x-large'><b> ⏱️ `date +'%H:%M'` </b></span>"
 interval=30
 markup=pango
 min_height=30
+
+[critical_action]
+command=xterm -e "/home/argos/.config/i3blocks/scripts/script1.sh"
+# ¡No uses interval!
+markup=pango
+full_text= <span background='#444242' size='x-large'>  !!!!  </span>
+
